@@ -1,0 +1,79 @@
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 32px;
+}
+
+body{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height : 100vh;   
+    background: #202020;
+}
+
+form{
+    box-shadow: 0 0 20px rgb(15, 15, 15);/*Le da ese estilo de marco*/
+    padding: 50px 35px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 380px;
+    background: rgb(220, 222, 224);
+}
+
+form:hover{
+    transform: scale(1.01);
+}
+
+input{
+    margin: 12px;
+    padding: 12px 15px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.boton{
+    margin:20px 88px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 2px solid black;
+    border-radius: 18px;
+    background-color: #202020;
+    color: white;
+}
+.boton:hover{
+    background-color:rgb(49, 47, 47);
+}
+
+.error{
+    background-color: red;
+    color: black;
+    padding: 10px;
+    width: 95%;
+    border-radius:5px;
+    margin: 25px auto;
+}
+
+.Registrar-btn{
+    margin:20px 88px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 2px solid black;
+    border-radius: 18px;
+    background-color: #202020;
+    color: white;
+}
+
+.Iniciar-btn{
+    margin:20px 88px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 2px solid black;
+    border-radius: 18px;
+    background-color: #202020;
+    color: white;
+}
